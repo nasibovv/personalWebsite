@@ -1,0 +1,148 @@
+body{
+  margin: 0;
+  text-align: center;
+  background-color: #E0EBE8;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1{
+  font-size: 90px;     /**1em = 100% = 16px**/
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 1;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+  text-decoration: none;
+}
+
+.image-cropper {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.profilePhoto {
+  display: inline;
+  height: 100%;
+  width: auto;
+}
+
+.profile p{
+  width: 37%;
+  margin: 0 auto 30px auto;
+  line-height: 2;
+}
+
+.first-container{
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.prog-photo{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.pizza-photo{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+hr{
+  border: 6px dotted #EAF6F6;
+  border-bottom: 0;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.footer-text{
+  width: 45%;
+  margin: 40px auto 60px;
+  line-height: 2;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  position: relative;
+  padding: 50px 0 20px;
+}
+
+.bottom-container p{
+  color: #EAF6F6;
+  font-size: 13px;
+  margin-top: 50px;
+}
+
+.footer-link{
+color: #11999E;
+font-size: 17px;
+margin: 10px 20px;
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#11cdd4;
+	border-radius:8px;
+	border:1px solid #11cdd4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+  margin-bottom: 40px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+	background-color:#11999e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
